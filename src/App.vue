@@ -8,10 +8,9 @@
     <b-collapse id="nav-collapse" is-nav>
 
       <!-- Left aligned nav items -->
-      <b-navbar-nav>
-        <b-nav-item to="/test">Test</b-nav-item>
+      <b-navbar-nav> 
+        <b-nav-item to="/times">Writeup List</b-nav-item>
       </b-navbar-nav>
-
       <!-- Right aligned nav items -->
       <b-navbar-nav class="ml-auto">
         <b-nav-item to="/about">About</b-nav-item>

@@ -1,9 +1,9 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 import App from './App.vue'
-import About from './components/About.vue'
-import Test from './components/Test.vue'
-import Home from './components/Home.vue'
+import About from './pages/About.vue'
+import Home from './pages/Home.vue'
+import Times from './pages/Times.vue'
 import {BootstrapVue, IconsPlugin} from 'bootstrap-vue'
 import 'bootstrap/dist/css/bootstrap.css'
 
@@ -15,7 +15,7 @@ Vue.use(IconsPlugin);
 
 const routes =[
   {path: '/About', component: About},
-  {path: '/Test', component: Test},
+  {path: '/Times', component: Times},
   {path: '/', component: Home}
 ]
 
